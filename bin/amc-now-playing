@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/amc_now_playing'
+
+AmcNowPlaying::CLI.new.call
